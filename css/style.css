@@ -397,26 +397,33 @@ ul {
 
 .benefits-title::before {
   content: '';
-  background-color: var(--background-team);
-  padding: 25px 100px;
+  width: 270px;
+  height: 120px;
   display: block;
   margin-bottom: 30px;
+  background-position: center;
+  background-size: 70px;
+  background-repeat: no-repeat;
 }
 
 .antena::before {
-  content: url(../images/main-page/antenna.jpg);
+  background-image: url(../images/main-page/antenna.jpg);
+  background-color: var(--background-team);
 }
 
 .astronaut::before {
-  content: url(../images/main-page/astronaut.jpg);
+  background-image: url(../images/main-page/astronaut.jpg);
+  background-color: var(--background-team);
 }
 
 .diagrama::before {
-  content: url(../images/main-page/diagram.jpg);
+  background-image: url(../images/main-page/diagram.jpg);
+  background-color: var(--background-team);
 }
 
 .clock::before {
-  content: url(../images/main-page/clock.jpg);
+  background-image: url(../images/main-page/clock.jpg);
+  background-color: var(--background-team);
 }
 
 .benefits-title {
