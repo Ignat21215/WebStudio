@@ -407,22 +407,22 @@ ul {
 }
 
 .antena::before {
-  background-image: url(../images/main-page/antenna.jpg);
+  background-image: url(../images/main-page/antenna.png);
   background-color: var(--background-team);
 }
 
 .astronaut::before {
-  background-image: url(../images/main-page/astronaut.jpg);
+  background-image: url(../images/main-page/astronaut.png);
   background-color: var(--background-team);
 }
 
 .diagrama::before {
-  background-image: url(../images/main-page/diagram.jpg);
+  background-image: url(../images/main-page/diagram.png);
   background-color: var(--background-team);
 }
 
 .clock::before {
-  background-image: url(../images/main-page/clock.jpg);
+  background-image: url(../images/main-page/clock.png);
   background-color: var(--background-team);
 }
 
